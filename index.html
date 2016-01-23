@@ -24,9 +24,25 @@
                 font-family: dotum;
                 line-height: 1.6em;
             }
-			 header{
-    		      border-bottom:1px solid #ccc;
-    		      padding: 15px 0;
+            body.black {
+                background-color: black;
+                color: white;
+            }
+            body.black a {
+                color: white;
+            }
+            body.black a:hover {
+                color: #f60;
+            }
+            body.black header {
+                border-bottom: 1px solid #333;
+            }
+            body.black nav {
+                border-right: 1px solid #333;
+            }
+            header {
+                border-bottom: 1px solid #ccc;
+                padding: 20px 0;
             }
             #toolbar {
                 padding: 10px;
@@ -35,7 +51,7 @@
             nav {
                 float: left;
                 margin-right: 20px;
-                min-height: 1000px;
+                min-height: 500px;
                 border-right: 1px solid #ccc;
             }
             nav ul {
@@ -45,6 +61,10 @@
             }
             article {
                 float: left;
+            }
+            footer {
+            	  float: center;
+                clear: both;
             }
             a {
                 text-decoration: none;
@@ -58,6 +78,7 @@
             h1 {
                 font-size: 1.4em;
             }
+
         </style>
 
 	    <body id="body">
@@ -66,8 +87,8 @@
                 <h1>Blue-hawk Homepage</h1>
             </header>
             <div id="toolbar">
-                <input type="button" value="black" />
-                <input type="button" value="white" />
+<input type="button" value="black" onclick="document.getElementById('body').className='black'" />
+                <input type="button" value="white" onclick="document.getElementById('body').className='white'" />
             </div>
             <nav>
                 <ul>
