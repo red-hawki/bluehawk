@@ -120,4 +120,6 @@ $topic = mysql_fetch_assoc($result);
             </article>
         </div>
     </body>
+    
+    <footer>저작권은 bluehawk입니다.</footer>
 </html>

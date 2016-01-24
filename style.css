@@ -1,0 +1,59 @@
+            body {
+                font-size: 0.8em;
+                font-family: dotum;
+                line-height: 1.6em;
+            }
+            body.black {
+                background-color: black;
+                color: white;
+            }
+            body.black a {
+                color: white;
+            }
+            body.black a:hover {
+                color: #f60;
+            }
+            body.black header {
+                border-bottom: 1px solid #333;
+            }
+            body.black nav {
+                border-right: 1px solid #333;
+            }
+            header {
+                border-bottom: 1px solid #ccc;
+                padding: 20px 0;
+            }
+            #toolbar {
+                padding: 10px;
+                float: right;
+            }
+            nav {
+                float: left;
+                margin-right: 20px;
+                min-height: 500px;
+                border-right: 1px solid #ccc;
+            }
+            nav ul {
+                list-style: none;
+                padding-left: 0;
+                padding-right: 20px;
+            }
+            article {
+                float: left;
+            }
+            footer {
+            	  float: center;
+                clear: both;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:link, a:visited {
+                color: #333;
+            }
+            a:hover {
+                color: #f60;
+            }
+            h1 {
+                font-size: 1.4em;
+            }
